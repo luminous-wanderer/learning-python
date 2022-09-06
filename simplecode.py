@@ -17,24 +17,32 @@ class color :
     BO = '\033[1m'
     UNDERLINE = '\033[4m'
 
+#yk just to look cool i add this.
 def load_bar():
   from tqdm import tqdm
   from time import sleep
 
   for i in tqdm (range(0, 25), unit=" Lines", desc = "Preparing"):
      sleep(.0095)
+  print("")
   for i in tqdm (range(0, 75), unit=" Lines", desc = "Preparing"):
      sleep(.0095)
+  print("")
   for i in tqdm (range(0, 20), unit=" Lines", desc = "Preparing"):
      sleep(.0095)
+  print("")
   for i in tqdm (range(0, 20), unit=" Lines", desc = "Preparing"):
      sleep(.0095)
+  print("")
   for i in tqdm (range(0, 60), unit=" Lines", desc = "Preparing"):
      sleep(.0095)
+  print("")
   for i in tqdm (range(0, 50), unit=" Lines", desc = "Preparing"):
      sleep(.0095)
+  print("")
   for i in tqdm (range(0, 30), unit=" Lines", desc = "Preparing"):
      sleep(.0095)
+  print("")
 load_bar()
 
 os.system("clear")
@@ -43,7 +51,7 @@ import shutil
 logo()
   
 def load_animation() :
-  load_str = "starting your console tools "
+  load_str = " starting your console aplications..."
   ls_len = len(load_str)
   animation = "|/-\\"
   anicount = 0
