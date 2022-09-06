@@ -6,7 +6,7 @@ import pystyle
 from pystyle import Colors, Colorate
   
 def logo() :
-  print(Colorate.Horizontal(Colors.rainbow,'''┌─────────────────────────────────────────────────────────────┐ │                                                             │
+  print(Colorate.Horizontal(Colors.blue_to_purple,'''┌─────────────────────────────────────────────────────────────┐ │                                                             │
 │          ██╗     ██╗   ██╗██╗  ██╗██╗  ██╗████████╗         │
 │          ██║     ██║   ██║╚██╗██╔╝╚██╗██╔╝╚══██╔══╝         │
 │          ██║     ██║   ██║ ╚███╔╝  ╚███╔╝    ██║            │
