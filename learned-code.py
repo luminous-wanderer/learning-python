@@ -274,4 +274,4 @@ elif opt == 5 :
 else :
   print(f"{color.R}Invalid option, try again!{color.E}")
   
-kontol
+kontol i edited this on acode
