@@ -7,7 +7,7 @@ inside the py i hav 5 feature
 
 3 a factor
 
-4 a pass generator? that uses secrets
+4 a random Ascii Generator
 
 5 a maze generator
 
